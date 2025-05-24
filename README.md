@@ -1,6 +1,6 @@
 # copilot-openai-lab
 
-# Desafio DIO - Microsoft Copilot e OpenAI
+## Desafio DIO - Microsoft Copilot e OpenAI
 
 Este repositório foi criado como parte do desafio da DIO para explorar as funcionalidades do Microsoft Copilot e Azure OpenAI, com foco em geração de conteúdo assistida por IA e segurança com filtros de conteúdo.
 
@@ -14,13 +14,11 @@ Demonstrar o uso prático das ferramentas Microsoft Copilot e Azure OpenAI em:
 ## 📁 Estrutura do Projeto
 
 copilot-openai-lab/
-├── README.md
-├── prompts/
-│ └── exemplos.md
-├── anotações/
-│ └── aprendizados.md
-└── images/
-└── screenshot1.png (opcional)
+├── README.md  
+├── prompts/  
+│   └── exemplos.md  
+├── anotações/  
+│   └── aprendizados.md
 
 ## 💬 Exemplos de Prompts
 
@@ -36,10 +34,6 @@ Resumo dos conceitos aprendidos, melhores práticas de uso e percepções sobre 
 - Azure OpenAI Studio
 - Git e GitHub
 - Markdown
-
-## 📸 Capturas de Tela
-
-(Imagens opcionais, se desejar documentar visualmente o uso das ferramentas)
 
 ## 📌 Sobre o Desafio
 
