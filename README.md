@@ -1,102 +1,44 @@
+# copilot-openai-lab
 
-# Document Insights AI
+## Desafio DIO - Microsoft Copilot e OpenAI
 
-Projeto de ingestão, indexação e busca de documentos utilizando Python e a biblioteca Whoosh.
+Este repositório foi criado como parte do desafio da DIO para explorar as funcionalidades do Microsoft Copilot e Azure OpenAI, com foco em geração de conteúdo assistida por IA e segurança com filtros de conteúdo.
 
----
+## 🚀 Objetivo
 
-## Descrição
+Demonstrar o uso prático das ferramentas Microsoft Copilot e Azure OpenAI em:
+- Criação de conteúdo com IA generativa
+- Aplicação de filtros de conteúdo
+- Documentação técnica utilizando GitHub
 
-Este projeto tem como objetivo aplicar técnicas de organização e pesquisa de documentos através da ingestão de dados e criação de índices inteligentes usando inteligência artificial local (Whoosh). Permite extrair conhecimento de textos variados (txt, pdf, docx) e realizar buscas eficientes.
+## 📁 Estrutura do Projeto
 
----
+copilot-openai-lab/
+├── README.md  
+├── prompts/  
+│   └── exemplos.md  
+├── anotações/  
+│   └── aprendizados.md
 
-## Estrutura do Projeto
+## 💬 Exemplos de Prompts
 
-- `/data/` — arquivos de exemplo (.txt, .pdf, .docx) para testes
-- `/scripts/` — scripts Python para ingestão, criação de índice, busca e geração de arquivos de exemplo
-- `README.md` — documentação do projeto
+Confira os prompts utilizados e os resultados obtidos na pasta [`prompts`](./prompts/exemplos.md).
 
----
+## 🧠 Anotações e Aprendizados
 
-## Scripts
+Resumo dos conceitos aprendidos, melhores práticas de uso e percepções sobre a experiência na pasta [`anotações`](./anotações/aprendizados.md).
 
-### 1. Gerar arquivos de exemplo
+## 🛠️ Tecnologias Utilizadas
 
-```bash
-python scripts/gerar_exemplos.py
-```
+- Microsoft Copilot
+- Azure OpenAI Studio
+- Git e GitHub
+- Markdown
 
-Cria arquivos de texto, PDF e DOCX na pasta `/data/` para teste.
+## 📌 Sobre o Desafio
 
----
-
-### 2. Ingestão e criação do índice
-
-```bash
-python scripts/create_index.py
-```
-
-Lê os arquivos da pasta `/data/` e cria um índice local na pasta `/indexdir/`.
-
----
-
-### 3. Buscar no índice
-
-```bash
-python scripts/search_index.py
-```
-
-Executa uma busca interativa nos documentos indexados. Digite termos para pesquisar e visualize os resultados. Digite `sair` para encerrar.
+Este projeto faz parte da trilha [Microsoft Copilot + OpenAI](https://www.dio.me/) da DIO.
 
 ---
 
-## Dependências
-
-Instale as bibliotecas necessárias com:
-
-```bash
-pip install python-docx fpdf whoosh
-```
-
----
-
-## Como rodar
-
-1. Clone o repositório:
-
-```bash
-git clone <[URL_DO_REPOSITORI](https://github.com/nonato-git/copilot-openai-lab/tree/main)>
-cd document-insights-ai
-```
-
-2. (Opcional) Crie e ative um ambiente virtual Python:
-
-```bash
-python -m venv venv
-venv\Scripts\activate  # Windows
-# ou
-source venv/bin/activate  # Linux/Mac
-```
-
-3. Instale as dependências (ver acima)
-
-4. Gere os arquivos de exemplo, crie o índice e faça buscas seguindo os scripts listados.
-
----
-
-## Considerações Finais
-
-Este projeto é uma aplicação prática dos conceitos de ingestão, indexação e pesquisa de documentos utilizando Python. Pode ser expandido para incluir outros formatos, mecanismos de busca mais robustos ou até uma interface web.
-
----
-
-## Autor
-
-Nonato-git
-
----
-
-## Link do repositório
-
-https://github.com/nonato-git/document-insights-ai
+Desenvolvido por [nonato-git](https://github.com/nonato-git)
